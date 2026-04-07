@@ -18,6 +18,8 @@
         - Additional information about change #1
 -->
 ## Upcoming Release
+
+## Version 2.6.7
 * Optimized cluster registration, significantly reducing registration time on large clusters.
 
 ## Version 2.6.6

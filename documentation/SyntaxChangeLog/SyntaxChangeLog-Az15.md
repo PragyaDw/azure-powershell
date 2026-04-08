@@ -1,3 +1,15 @@
+## 15.6.0 - May 2026
+#### Az.AppConfiguration 2.1.0 
+* Modified cmdlet `New-AzAppConfigurationStore`
+   - Added parameters `-DataPlaneProxyAuthenticationMode`, `-DataPlaneProxyPrivateLinkDelegation`, `-DefaultKeyValueRevisionRetentionPeriodInSecond`
+* Modified cmdlet `Update-AzAppConfigurationStore`
+   - Added parameters `-DataPlaneProxyAuthenticationMode`, `-DataPlaneProxyPrivateLinkDelegation`, `-DefaultKeyValueRevisionRetentionPeriodInSecond`
+* Added cmdlet `Get-AzAppConfigurationReplica`, `New-AzAppConfigurationReplica`, `Remove-AzAppConfigurationReplica`#### Az.Resources 9.1.0 
+, `New-AzDenyAssignment`, `Remove-AzDenyAssignment`
+#### Az.StackHCI 2.7.0 
+* Modified cmdlet `Register-AzStackHCI`
+   - Added parameter `-useStableAgentVersion`
+
 ## 15.5.0 - April 2026
 #### Az.CosmosDB 1.20.0 
 * Modified cmdlet `New-AzCosmosDBAccount`
@@ -1259,6 +1271,7 @@
    - Changed the type of parameter `-ManagedResourcesNetworkAccessType` from `ManagedResourcesNetworkAccessType` to `String`
    - Changed the type of parameter `-UserAssignedIdentity` from `Hashtable` to `String[]`
 * Added cmdlet `Update-AzWorkloadsProviderInstance`
+
 
 
 

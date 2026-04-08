@@ -9,7 +9,7 @@ pac7,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-releas
 pac8,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.ApiManagement.4.1.0.zip;sourceType=sa]Az.ApiManagement,4.1.0
 pac9,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.App.2.0.1.zip;sourceType=sa]Az.App,2.0.1
 pac10,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.AppComplianceAutomation.0.1.4.zip;sourceType=sa]Az.AppComplianceAutomation,0.1.4
-pac11,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.AppConfiguration.2.0.1.zip;sourceType=sa]Az.AppConfiguration,2.0.1
+pac11,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.AppConfiguration.2.1.0.zip;sourceType=sa]Az.AppConfiguration,2.1.0
 pac12,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.ApplicationInsights.3.0.0.zip;sourceType=sa]Az.ApplicationInsights,3.0.0
 pac13,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.ArcGateway.0.1.2.zip;sourceType=sa]Az.ArcGateway,0.1.2
 pac14,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.ArcResourceBridge.2.0.0.zip;sourceType=sa]Az.ArcResourceBridge,2.0.0

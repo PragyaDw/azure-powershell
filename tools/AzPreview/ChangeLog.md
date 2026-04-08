@@ -1,3 +1,42 @@
+## 15.6.0 - May 2026
+#### Az.AppConfiguration 2.1.0
+* Upgraded API version from 2022-05-01 to 2024-06-01
+* Added support for App Configuration store replicas
+    - Added 'New-AzAppConfigurationReplica' cmdlet
+    - Added 'Get-AzAppConfigurationReplica' cmdlet
+    - Added 'Remove-AzAppConfigurationReplica' cmdlet
+* Added 'DataPlaneProxyAuthenticationMode', 'DataPlaneProxyPrivateLinkDelegation', and 'DefaultKeyValueRevisionRetentionPeriodInSecond' parameters to 'New-AzAppConfigurationStore' and 'Update-AzAppConfigurationStore'
+* Removed 'SoftDeleteRetentionInDay' parameter from 'Update-AzAppConfigurationStore' as it is a create-only property
+
+#### Az.PostgreSql 1.4.1
+* 'Az.PostgreSql' will be retired in an upcoming release.
+    - To continue managing Azure Database for PostgreSQL resources, move to 'Az.PostgreSqlFlexibleServer'.
+    - When the replacement module is released, it will be available to install from https://www.powershellgallery.com/packages/Az.PostgreSqlFlexibleServer
+
+#### Az.ResourceMover 1.3.2
+* Updated preannouncement breaking changes date to May 2026.
+
+#### Az.Resources 9.1.0
+* Added 'New-AzDenyAssignment' cmdlet for creating user-assigned deny assignments using the '2024-07-01-preview' API. Deny assignments allow denying specific write, delete, and action operations to all principals at a given scope while excluding specified principals.
+* Added 'Remove-AzDenyAssignment' cmdlet for removing user-assigned deny assignments by ID, name and scope, or pipeline input.
+* Regenerated Authorization Management SDK from '2024-07-01-preview' swagger specification to include deny assignment create and delete operations.
+
+#### Az.SecurityInsights 3.2.2
+* Updated preannouncement breaking changes date to May 2026.
+
+#### Az.Sftp 0.1.3
+* Fixed command injection vulnerability in file permission handling [Security]
+    - Replaced 'powershell.exe' and 'icacls.exe' subprocess calls with direct .NET ACL APIs on Windows
+    - Replaced 'chmod' subprocess call with native P/Invoke on Unix
+    - Canonicalized file paths in SSH key generation methods to prevent path traversal
+
+#### Az.StackHCI 2.7.0
+* Updated preannouncement breaking changes date to May 2026.
+* Optimized cluster registration, significantly reducing registration time on large clusters.
+
+#### Az.Websites 3.4.3
+* Updated preannouncement breaking changes date to May 2026. 
+
 ## 15.5.0 - April 2026
 #### Az.Accounts 5.3.4
 * Improved SSH certificate authentication for Az SSH cmdlets across all Azure clouds.
